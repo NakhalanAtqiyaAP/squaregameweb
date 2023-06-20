@@ -1,0 +1,89 @@
+
+body {
+  background-color:#212A3E;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: #ffff;
+}
+h1{
+    text-align: center;
+    color: thistle;
+}
+.putih{
+    color: #ffff;
+}
+.merah{
+    color: red;
+}
+.green{
+  color: #17594A;
+}
+.biru{
+  color: #00337C;
+}
+.container {
+  width: 800px;
+  height: 250px;
+  
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  margin: auto;
+  box-sizing: border-box;
+  
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-template-rows: 1fr;
+  grid-gap: 15px;
+}
+
+.items {
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 10px;
+  cursor: pointer;
+  border: 3px dotted black;
+  transition: all 0.6s;
+}
+
+
+.icon-wrapper, .project-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper i {
+  font-size: 100px;
+  color: white;
+  transform: translateY(0px);
+  transition: all 0.6s;
+}
+
+.icon-wrapper {
+  align-self: end;  
+}
+
+.project-name {
+  align-self: start;
+}
+.project-name a {
+    color: #ffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;  
+  transform: translateY(0px);
+  transition: all 0.5s;
+}
+
+.items:hover {
+  border: 3px solid #ffff;
+  & .project-name p {
+    transform: translateY(-10px);
+  }
+  & .icon-wrapper i {
+    transform: translateY(5px);
+  }
+}

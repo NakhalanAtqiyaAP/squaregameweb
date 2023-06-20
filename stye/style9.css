@@ -1,0 +1,23 @@
+body{
+    background-color: #03C988;
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    
+}
+button{
+    border: 1px solid #0000;
+    background-color: #1F6E8C;
+    padding: 20px;
+    margin-top: 300px;
+    color: #ffff;
+}
+a:hover{
+    transform: scale(1.1);
+}

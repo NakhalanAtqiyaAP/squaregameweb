@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+html,body{
+    overflow: hidden;
+    background-color: #212A3E;
+}
+#bgvidio{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+nav{
+     background-color: #213363;
+     width: 100%;  
+      text-align: center;
+      position: relative;
+}
+nav img{
+    margin:auto;
+    height: 50px;  
+}
+nav{
+    background-color: #213363;
+    width: 100%;  
+     text-align: center;
+     position: relative;
+}
+nav img{
+   margin:auto;
+   height: 50px; 
+}
+.layar canvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+audio{
+    display:none;
+}

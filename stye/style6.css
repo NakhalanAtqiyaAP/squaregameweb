@@ -1,0 +1,31 @@
+*,html,body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    outline: 0;
+    background-color: #212A3E;
+}
+h1,button{
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #ffff;
+}
+.go-to-link{
+    padding: 30px;
+}
+.go-to-link a{
+    border: 1px solid #0000;
+    background-color: #1F6E8C;
+    text-decoration: none;
+    color: #ffff;
+    padding: 70px;
+}
+.go-to-link :hover{
+    transform: scale(1.1);
+}
+.go-to-link a:hover{
+    background-color: #0A6EBD;
+    transform: scale(1.1);
+}
