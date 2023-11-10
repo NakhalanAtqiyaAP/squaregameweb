@@ -10,39 +10,26 @@
 <body>
 <audio controls autoplay
       src="audio/music2.mp3"></audio>
-
+<div class="all">
         <div class="layar">
     <nav>
     <img src="assets/SquareGamelogo.png" alt="">
     </nav>
 </div>
-</div>     
- <div class="tutor">
-        <p>player1</p>
-        <p>W(JUMP)</p>
-        <P>D(RIGHT)</P>
-        <P>A(LEFT)</P>
-        <P>S(ATTACK)</P>
-        <br>
-        <p>player2</p>
-        <p>Arrowup(JUMP)</p>
-        <P>Arrowright(RIGHT)</P>
-        <P>Arrowleft(LEFT)</P>
-        <P>Arrowdown(ATTACK)</P>
-      </div>
-<div class="all">
+</div>
     <div class="layar1">
         <div class="layar2">  
-        <a href="home.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Refresh</a>         <!--Player 1-->
+        <a href="home.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Refresh</a>        
+         <!--Player 1-->
          <div class="attackk">
             <div class="player1-health"></div>
             <div id="health1" class="attack22"></div>
     </div>
         <!--timer-->
         <div id="timer" class="timer"></div>
-        <!--Player 2-->
+        <!--Player 1-->
             <div class="attack">
-            <div class="player2-health"></div>
+            <div class="player1-health"></div>
             <div id="health2" class="attack2"></div>
     </div>
     </div>
